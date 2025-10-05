@@ -207,3 +207,27 @@
     grid-template-columns: 1fr;
   }
 }
+
+.image-error {
+  text-align: center;
+  padding: 2rem;
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+  border-radius: 0.5rem;
+  border: 1px solid #ef4444;
+  margin-top: 1rem;
+}
+
+.image-error p {
+  margin: 0.5rem 0;
+}
+
+.debug-info {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-top: 1rem;
+  background: rgba(156, 163, 175, 0.1);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-family: monospace;
+}
