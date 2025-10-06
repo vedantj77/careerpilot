@@ -970,7 +970,7 @@
 }
 
 .roadmap-button {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6); /* Blue → Purple */
+  background: linear-gradient(135deg, #1e1b26, #312e81);
   color: #fff;
   border: none;
   padding: 0.4rem 1rem; /* smaller height */
@@ -985,13 +985,14 @@
 }
 
 .roadmap-button:hover {
-  transform: translateY(-2px) scale(1.02);
-  background: linear-gradient(135deg, #2563eb, #7c3aed); /* Darker hover */
-  box-shadow: none; /* no glow */
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #3730a3, #312e81);
+  box-shadow: 0 8px 25px rgba(49, 46, 129, 0.4);
+  border: 1px solid #4f46e5;
 }
 
 .test-skills-button {
-  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+  background: linear-gradient(135deg, #1e1b26, #312e81);
   color: white;
   border: none;
   padding: 8px 16px;
@@ -1006,7 +1007,9 @@
 
 .test-skills-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+  background: linear-gradient(135deg, #3730a3, #312e81);
+  box-shadow: 0 8px 25px rgba(49, 46, 129, 0.4);
+  border: 1px solid #4f46e5;
 }
 
 .job-card-actions {

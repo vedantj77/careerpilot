@@ -411,8 +411,6 @@ export default function SkillsSection({ onBack }) {
                     </div>
                     <div className="job-details">
                       <div className="job-meta">
-                        <span className="career-path">{job.careerPath}</span>
-                        <span className="experience-level-tag">{job.originalExperienceLevel}</span>
                       </div>
                       <div className="skills-section">
                         <h5>Your Matching Skills ({job.matchingSkills.length}/{job.skillsRequired.length})</h5>
